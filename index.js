@@ -10,9 +10,9 @@ app.use(express.json());
 // Buat koneksi ke DB
 const connection = mysql.createConnection({
     host: 'mysql.srusun.id',
-    user: 'melika',
-    password: 'Melika!2025',
-    database: 'melika'
+    user: 'candra',
+    password: 'CandraSRusunDB!2025',
+    database: 'candra'
 });
 
 //Test koneksi
